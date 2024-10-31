@@ -142,8 +142,8 @@ def jugar_piedra_papel_tijera():
         else:
             print("¡Empate!")
 
-        print(f"Tu puntaje: {puntaje_jugador}")
-        print(f"Puntaje de la máquina: {puntaje_maquina}")
+        print(f"Tu puntaje: ",puntaje_jugador)
+        print(f"Puntaje de la máquina: ",puntaje_maquina)
 
     if puntaje_jugador == 3:
         print("¡Felicidades! Ganaste el juego.")
